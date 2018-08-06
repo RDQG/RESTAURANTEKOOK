@@ -13,10 +13,18 @@
         android:layout_height="match_parent"
         android:id="@+id/linearLayout1">
         <TextView
-            android:text="Registrate"
+            android:text="Regist"
+            android:gravity="center_vertical|center"
+            android:textSize="24dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView1" />
+        <GridLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridLayout1" />
         <TextView
             android:text="Correo Electrónico"
             android:layout_width="match_parent"
@@ -54,7 +62,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/editText4" />
         <Button
-            android:text="Button"
+            android:text="Registrate"
+            android:background="#ffc044"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button1" />
